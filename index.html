@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Balance Checker</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Tool to check the balance of multiple bitcoin addresses at once. Segwit support">
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="Bitcoin Address Balance Checker,bitcoin, balance, checker, address,addresses,multiple addresses" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#e89800">
+<meta name="apple-mobile-web-app-title" content="bitcoin data.science">
+<meta name="application-name" content="bitcoin data.science">
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="theme-color" content="#18191a">
+<meta property="og:title" content="Bitcoin Address Balance Checker - bitcoin data.science" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="" />
+<meta property="og:image" content="/img/logo.png" />
+<meta property="og:description" content="Tool to check the balance of multiple bitcoin addresses at once. Segwit support" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:locale:alternate" content="pt_BR" />
+<meta property="og:site_name" content="bitcoin data.science" />
+
+<link rel="stylesheet" href="/css/bootstrap.min.css" crossorigin="anonymous">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark">
+<div class="container">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item">
+</li>
+<li class="nav-item">
+</li>
+<li class="nav-item">
+</li>
+<li class="nav-item">
+</li>
+<li class="nav-item">
+</li>
+<li class="nav-item">
+</li>
+</ul>
+</div>
+<label class="dropdown navbar-nav">
+<span class="dd-button nav-item dropdown">
+</span>
+<input type="checkbox" class="dd-input" id="test">
+<span class="dd-menu drop lang">
+</span>
+</span>
+</label>
+</div>
+</nav>
+
+<main class="pt-3 my-2">
+<div class="balancecheckbg mt-2"><div class="container">
+<div class="pt-5 pb-4 col-md-10">
+<div class="p-3 pb-4">
+<div style="font-size:1rem;color:inherit" class="text-default">
+</div>
+</div>
+</div></div></div>
+<div class="container">
+<div class="form_container p-5 col-md-11 m-0">
+<textarea rows="6" class="form-control text-monospace bg-transparent text-light1 rounded-0" style="border-color:#39785b  " autocomplete="on" placeholder="Enter your bitcoin addresses here." id="BalanceChecker"></textarea>
+<input type="button" id="submit1" class="btn btn-success" value="Get Balance!" onclick="if (!window.__cfRLUnblockHandlers) return false; api(somatotal)" data-cf-modified-52e5a1091155ab735c5b3f2b-="">
+<button id="spin" class="btn btn-success" type="button" disabled style="display:none">
+<span class="spinner-border spinner-border-sm pl-2" role="status" aria-hidden="true"></span> &nbsp; Loading... </button>
+<input type="button" id="soma1" class="btn btn-outline-success" value="Get Total Sum" onclick="if (!window.__cfRLUnblockHandlers) return false; somatotal()" style="display:none" data-cf-modified-52e5a1091155ab735c5b3f2b-="">
+<input type="button" id="soma2" class="btn btn-outline-success" disabled value="Get Total Sum" style="display:none;cursor:default;">
+<div class="pt-4">
+<table class="table table-responsive-sm mx-0 pb-0 py-0 text-light1 tbal">
+<thead class="thead table-borderless"><tr>
+<th scope="col" class="text-uppercase">Address</th>
+<th scope="col" class="text-uppercase">Value BTC</th>
+<th scope="col" class="text-uppercase">Value USD</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></div>
+</div>
+
+</div>
+</main>
+<footer class="footer mt-auto py-2">
+<div class="container">
+<div class="row">
+<div class="col-md-4 py-2">
+</div>
+<div class="col-md-4 py-2"><span class="text-muted-center  align-middle">
+</div>
+<div class="col-md-4">
+<label>
+<span class="dd-button dropdown">
+<input type="checkbox" class="dd-input dddonate">
+<span class="dd-menu drop lang dddonate mx-3 my-2" style="top:-14rem;">
+<span class="card card-body border border-dark" style="background-color: #121212;">
+</span>
+</span>
+</span>
+</label>
+</div>
+</div>
+</div>
+</footer>
+
+<script data-cfasync="false" src="email-decode.min.js"></script><script src="js/script.js" type="52e5a1091155ab735c5b3f2b-text/javascript"></script>
+<script src="/code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous" type="52e5a1091155ab735c5b3f2b-text/javascript"></script>
+<script src="/js/bootstrap.min.js" crossorigin="anonymous" type="52e5a1091155ab735c5b3f2b-text/javascript"></script>
+<script src="/cloudflare-static/rocket-loader.min.js" data-cf-settings="52e5a1091155ab735c5b3f2b-|49" defer=""></script></body>
+</html>
